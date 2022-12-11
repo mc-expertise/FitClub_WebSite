@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 16px 0;
+}
+.links li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}

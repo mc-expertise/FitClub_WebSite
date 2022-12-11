@@ -1,0 +1,59 @@
+/* Start Programs Section */
+.programs {
+  width: 100%;
+  padding: 0 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.programs .programs-header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 6rem;
+}
+.programs .programs-header p {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+.programs-categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.programs-categories .categorie {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 32px;
+  color: white;
+  background-color: #808080;
+}
+.programs-categories .categorie img {
+  width: 32px;
+  color: white;
+}
+.programs-categories .categorie h3 {
+  font-size: 16px;
+}
+.programs-categories .categorie p {
+  font-size: 14.4px;
+  line-height: 1.7;
+  margin: 0;
+}
+.programs-categories .categorie .join-now {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.programs-categories .categorie .join-now img {
+  width: 16px;
+  height: 14px;
+}
+.programs-categories .categorie:hover {
+  background-color: var();
+}
+/* End Programs Section */
