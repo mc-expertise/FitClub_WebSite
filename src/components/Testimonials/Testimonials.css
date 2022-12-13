@@ -1,0 +1,68 @@
+.testimonials {
+  padding: 0 2rem;
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
+.testimonials .left {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  gap: 2rem;
+}
+.testimonials span:nth-child(1) {
+  font-weight: bold;
+  color: var(--orange);
+}
+.testimonials span:nth-child(4) {
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+.testimonials .left .programs-header {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+.testimonials .right {
+  position: relative;
+  flex: 1 1;
+}
+.testimonials .right .empty {
+  width: 17rem;
+  height: 20rem;
+  position: absolute;
+  top: 1rem;
+  right: 9rem;
+  border: 2px solid var(--orange);
+}
+
+.testimonials .right .background {
+  width: 17rem;
+  height: 20rem;
+  position: absolute;
+  top: 3rem;
+  right: 7rem;
+  background: var(--planCard);
+}
+.testimonials .right > img {
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  position: absolute;
+  top: 2rem;
+  right: 8rem;
+}
+.testimonials .right .arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 4rem;
+  fill: white;
+}
+.testimonials .arrows img {
+  width: 1.5rem;
+  cursor: pointer;
+}

@@ -5,7 +5,11 @@
   --orange: #f48915;
   --darkGrey: #464d53;
   --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --planCard: linear-gradient(
+    210.41deg,
+    rgb(250, 80, 66) 1.14%,
+    rgb(255, 167, 57) 100.75%
+  );
   --appColor: #3c3f45;
 }
 
