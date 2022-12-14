@@ -1,0 +1,71 @@
+.joinus {
+  display: flex;
+  gap: 10rem;
+  padding: 0 2rem;
+  color: white;
+}
+.joinus .left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1 1;
+  position: relative;
+}
+.joinus .left hr {
+  position: absolute;
+  width: 10.5rem;
+  border-radius: 20%;
+  border: 2px solid var(--orange);
+  margin: -10px 0;
+}
+.joinus .left .divone {
+  display: flex;
+  gap: 2rem;
+}
+.joinus .left .divtwo {
+  display: flex;
+  gap: 2rem;
+}
+.programs-header {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.joinus .right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1 1;
+}
+
+.joinus .right .email-container {
+  padding: 1rem 2rem;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 2px;
+}
+.joinus .right .email-container input {
+  background-color: var(--gray);
+  border: none;
+  outline: none;
+  height: 56px;
+  padding: 0;
+}
+
+.joinus .right .email-container button {
+  background-color: var(--orange);
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.joinus .right .email-container input::placeholder {
+  color: var(--lightgray);
+}
+.joinus .right .email-container input:focus {
+  color: var(--lightgray);
+}

@@ -10,6 +10,8 @@ const Plan = () => (
       <p>YOUR JOURNEY</p>
       <p className="stroke-text">NOW WITHUS</p>
     </div>
+    <div className="blur plans-blur-1"></div>
+    <div className="blur plans-blur-2"></div>
     {/* Plans CARD */}
     <div className="plans-card">
       {plansData.map((plan, i) => (

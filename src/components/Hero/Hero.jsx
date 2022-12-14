@@ -4,11 +4,13 @@ import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
+
 const Hero = () => (
   <>
     <div className="hero">
       <div className="left-h">
         <Header />
+        <div className="blur hero-blur"></div>
         {/* the best ad */}
         <div className="best-fit">
           <div></div>
